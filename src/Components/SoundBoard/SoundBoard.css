@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 body{
+    
     background-color: #fff;
     font-family: sans-serif;
     display: flex;
@@ -21,7 +22,7 @@ body{
     color: aquamarine;
     margin: 1rem;
     padding: 1.5rem 3rem;
-    font-size: 1,2rem;
+    font-size: 1.2rem;
     font-family: inherit;
     cursor: pointer;
 }

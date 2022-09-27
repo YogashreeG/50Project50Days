@@ -1,4 +1,4 @@
-* {
+/* * {
     box-sizing: border-box;
 }
 
@@ -39,4 +39,10 @@ canvas{
 
 .toolbox > *:last-child{
     margin-left: auto;
+} */
+.canvas{
+    height: 70%;
+    width: 60%;
+    border-radius: 4%;
+    border: 2px solid #000;
 }

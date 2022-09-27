@@ -1,24 +1,22 @@
 import React from "react";
 import "./SoundBoard.css";
 
-export function SoundBoard() {
 
-  // const sounds = ['Audio1', 'Audio2', 'Audio3']
-  // sounds.forEach(sound => {
-  //   const btn = document.createElement('button')
-  //   btn.classList.add('btn')
-  //   btn.innerText = sound
-  //   document.getElementById('buttons').appendChild(btn)
-  // })
+export const SoundBoard=()=> {
+  // const [songs, setSongs] = useState(Song)
+  // const [isplaying, setisplaying] = useState(false);
+  // const [currentSong, setCurrentSong] = useState(song[0];)
+  
 
   return (
     <>
     
       <div id="container">
-        <audio className="Audio1" src="./audio1.mp3"></audio>
-        <audio className="Audio2" src="./audio2.mp3"></audio>
-        <audio className="Audio3" src="./audio3.mp3"></audio>
-        <div className="buttons"></div>
+        <div className="navbar">
+        <audio  src="./Sound"></audio>
+        {/* <audio src="./audio2.mp3"></audio>
+        <audio  src="./audio3.mp3"></audio> */}
+       </div>
       </div>
     </>
   );
